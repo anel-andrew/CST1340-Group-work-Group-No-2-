@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalogue SYSTEM "books.dtd">
+
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+
+<catalogue>
+
+    <book id="B001">
+        <title>Off Campus</title>
+        <author>Elle Kennedy</author>
+        <genre>Romance</genre>
+        <price currency="MUR">400.00</price>
+        <availability status="in-stock"/>
+    </book>
+
+    <book id="B002">
+        <title>Turtles all the way down</title>
+        <author>John Green</author>
+        <genre>Drama</genre>
+        <price currency="MUR">550.00</price>
+        <availability status="in-stock"/>
+    </book>
+
+    <book id="B003">
+        <title>Drunk</title>
+        <author>Jackson Biko</author>
+        <genre>Drama</genre>
+        <price currency="MUR">700.00</price>
+        <availability status="out-of-stock"/>
+    </book>
+
+    <book id="B004">
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian</genre>
+        <price currency="MUR">560.00</price>
+        <availability status="in-stock"/>
+    </book>
+
+    <book id="B005">
+        <title>Beljar</title>
+        <author>Sylvia Plath</author>
+        <genre>Fiction</genre>
+        <price currency="MUR">700.00</price>
+        <availability status="in-stock"/>
+    </book>
+
+    <book id="B006">
+        <title>Purple Hibiscus</title>
+        <author>Chimamanda Adichie</author>
+        <genre>Fantasy</genre>
+        <price currency="MUR">700.00</price>
+        <availability status="out-of-stock"/>
+    </book>
+
+</catalogue>
