@@ -1,0 +1,8 @@
+<!ELEMENT catalogue (book+)>
+<!ELEMENT book (title,author,genre,price,availability)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST book id ID #REQUIRED availability status (in-stock | out-of-stock)>
+<!ATTLIST price currency CDATA #FIXED "MUR">
